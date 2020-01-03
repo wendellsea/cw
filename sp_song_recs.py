@@ -222,7 +222,7 @@ def get_final_ds_songs(model_binary_name):
 
 ds_final = get_final_ds_songs('rf_binary')
 
-ds_final.to_csv('L:\\MgdCareAnalysis\\PERSONAL FOLDERS\\Cody Wendell\\PFiles\\s\\ds_songs_final.csv')
+ds_final.to_csv('C:\\Users\\cwendell\\Desktop\\\\spotify\\updated\\ds_songs_final.csv')
 
 # upload all unique songs to 'discover songs' playlist in Spotify
 client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
